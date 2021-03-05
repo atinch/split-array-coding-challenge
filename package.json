@@ -1,0 +1,22 @@
+{
+  "name": "tutor1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -L -q",
+    "test": "jest --watchAll"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.17",
+    "@types/jest": "^26.0.20",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.20.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
+  }
+}
